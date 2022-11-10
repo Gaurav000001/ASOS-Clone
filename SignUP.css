@@ -66,7 +66,6 @@ body{
 .main>div>div:nth-child(2)>div>div>a>img,svg{
     width: 18px;
     border-radius: 50px;
-    /* background-color: white; */
 }
 .main>div>div:nth-child(2)>div>div>a>img:hover,svg:hover{
     background-color: rgb(230, 230, 230);
@@ -74,12 +73,10 @@ body{
 .main>div>div:nth-child(2){
     width: 87%;
     margin: auto;
-    /* background-color: white; */
     font-family: 'Roboto', sans-serif;
 
 }
 .main>div>div:nth-child(2)>h3, .main>div>div:last-child>h3{
-    /* background-color: white; */
     text-align: center;
     margin-top: 50px;
     color: rgb(27, 27, 27);
@@ -91,7 +88,6 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
-    /* background-color: white; */
 
 }
 .main>div>div:nth-child(2)>div>div:hover{
@@ -100,13 +96,11 @@ body{
 .main>div>div:nth-child(2)>div>div{
     padding: 15px;
     border: 2px solid rgb(206, 206, 206);
-    /* background-color: white; */
 
 }
 .main>div>div:nth-child(2)>div>div>a{
     display: flex;
     justify-content: space-around;
-    /* background-color: white; */
     color: rgb(59, 59, 59);
     text-decoration: none;
     font-weight: 700;
@@ -115,7 +109,6 @@ body{
     color: rgb(150, 149, 149);
 }
 .main>div>div:nth-child(2)>div>div>a>p{
-    /* background-color: white; */
     letter-spacing: 1.5px;
     font-size: 15px;
 }
@@ -125,7 +118,6 @@ body{
     font-size: 15px;
     margin-top: 15px;
     line-height: 24px;
-    /* background-color: white; */
     text-align: center;
     font-family: 'Jost', sans-serif;
     letter-spacing: .21px;
@@ -133,7 +125,6 @@ body{
 
 .main>div>div:last-child{
     font-family: 'Roboto', sans-serif;
-    /* background-color: white; */
 }
 .form>form{
     width: 55%;
@@ -144,7 +135,6 @@ body{
     padding: 10px;
 }
 legend{
-    /* background-color: white; */
     font-size: 13px;
     letter-spacing: 2.5px;
     font-weight: 600;
@@ -156,7 +146,6 @@ legend{
     height: 45px;
     width: 100%;
     border: 1px solid black;
-    /* background-color: white; */
     padding-left: 10px;
 }
 .selector{
