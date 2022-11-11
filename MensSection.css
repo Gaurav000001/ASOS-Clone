@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.beforeNav{
+    width: 99vw;
+    height: 30px;
+    font-family: 'Jost', sans-serif;
+}
+.beforeNav>div{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+}
+.beforeNav>div>ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    font: inherit;
+    height: 100%;
+    letter-spacing: .8px;
+    font-weight: 0;
+    font-size: 12.5px;
+}
+.beforeNav>div>ul>li{
+    padding: 0 17px;
+    display: flex;
+    align-items: center;
+    color: rgb(53, 53, 53);
+    letter-spacing: 1px;
+}
+.beforeNav>div>ul>li:first-child{
+    border-right: 1px solid rgb(216, 216, 216);
+    border-left: 1px solid rgb(216, 216, 216);
+}
+.beforeNav>div>ul>li:last-child{
+    border-left: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+}
+.beforeNav>div>ul>li>a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    
+}
+.beforeNav>div>ul>li>button>img{
+    width: 15px;
+    margin: -1px;
+    margin-bottom: -.25rem; 
+    padding: 2px;
+}
+.beforeNav>div>ul>li>button{
+    border-radius: 50%;
+    padding-bottom: 0;
+    text-indent: 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: white;
+}
+.beforeNav>div>ul>li:hover{
+    color: rgb(70, 70, 240);
+    cursor: pointer;
+}
+.beforeNav>div>ul>li>a:hover{
+    color: rgb(70, 70, 240);
+}
+.beforeNav>div>ul>li>button:hover{
+    border-color: rgb(128, 128, 221);
+    cursor: pointer;
+}
+
+
+
+
+header{
+    width: 99vw;
+    font-family: 'Mukta', sans-serif;
+}
+#nav-main{
+    width: 100%;
+}
+#nav-main>#first>div{
+    display: flex;
+}
+#nav-main>#first{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#nav-main>#first>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+#nav-main>#first>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#nav-main>#first>div>ul{
+    list-style: none;
+}
+#nav-main>#first>div>button{
+    height: 100%;
+    cursor: pointer;
+    background-color: black;
+}
+#nav-main>#first>div>button>div{
+    width: 100%;
+    height: 100%;
+    
+    margin: auto 40px;
+    margin-top: -22px;
+    margin-left: 0px;
+    background-color: black;
+}
+#nav-main>#first>div>ul{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-left: 1px solid rgb(94, 94, 94);
+    background-color: rgb(77, 77, 77);
+}
+#nav-main>#first>div>ul>li{
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 0 25px;
+    font-size: 15px;
+    color: white;
+}
+#nav-main>#first>div>ul>li:last-child{
+    padding: 0 35px;
+   
+}
+
+/* search bar */
+#nav-main>#first>div>div{
+    background-color: black;
+    border-left: 1px solid rgb(94, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-main>#first>div>div>input{
+    margin-left: 30px;
+    height: 40px;
+    font-size: 14px;
+    width: 700px;
+    padding: 0 15px;
+    border: none;
+    border-start-start-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#nav-main>#first>div>div>i{
+    background-color: white;
+    height: 20px;
+    padding: 10px;
+    padding-bottom: -10px;
+    margin-right: 30px;
+    border-end-end-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+
+
+#nav-main>#second{
+    width: 100%;
+    height: 53px;
+    background-color: rgb(77, 77, 77);
+}
+#nav-main>#second>div{
+    width: 95%;
+    margin: auto;
+    background-color: rgb(77, 77, 77);
+}
+#nav-main>#second>div>button{
+    padding: 0px 10px;
+    height: 100%;
+    margin: auto 0px;
+    border: none;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+}
+#nav-main>#second>div>button:first-child, #nav-main>#second>div>button:nth-child(13){
+    background-color: #d01345;
+    height: 100%;
+    padding: 17px 12px;
+    transform: skew(-12deg);
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+#nav-main>#second>div>button:first-child{
+    background-color: #d01345;
+    height: 100%;
+    padding: 16px 12px;
+    transform: skew(-12deg);
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+#nav-main>#second>div>button:first-child>span>span, #nav-main>#second>div>button:nth-child(13)>span>span{
+    display: block;
+    transform: skew(12deg);
+}
+
+.afterNav{
+    width: 99vw;
+    height: 50px;
+    background-color: rgb(255 56 92);
+}
+.afterNav>div{
+    width: 97%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+}
+.afterNav>div>button:nth-child(2){
+    width: 85%;
+    background-color: white;
+    border: none;
+    background-color: rgb(255 56 92);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.afterNav>div>a{
+    height: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    width: 90px;
+    border-radius: 0;
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    line-height: 26px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 9px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.homesection{
+    width: 100%;
+}
+.homesection>div{
+    margin-left: 30px;
+}
+.homesection>div>ul{
+    display: flex;
+}
+.homesection>div>ul>li{
+    list-style: none;
+    padding: 16px 7px;
+    font-size: 13px;
+    font-family: 'Jost', sans-serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: .5px;
+}
+.homesection>div>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.bestsellers{
+    background-color: #f8f8f8;
+}
+.bestsellers>p{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 25px 0 17px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.filtersSection{
+    width: 94.18%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    padding: 10px 40px;
+    background-color: #eee;
+}
+.filtersSection>button{
+    border: none;
+    height: 40px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    border-top: 1px solid rgb(214, 214, 214);
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.filtersSection>button:hover{
+    color: blue;
+}
+.filtersSection>button>a{
+    text-decoration: none;
+    float: left;
+    padding-left: 5px;
+    cursor:default;
+    color: #666;
+}
+.filtersSection>button>svg{
+    padding-right: 8px;
+}
+
+.numberofProd{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 13px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: .5px;
+    color: #666;
+}
+
+
+#container{
+    font-family: 'Jost', sans-serif;
+    width: 94.3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 55px 12px;
+    padding: 0 40px;
+}
+#container>div>img{
+    width: 100%;
+    height: 90%;
+}
+#container>div>p:nth-child(2){
+    font-size: 13.5px;
+    letter-spacing: .5px;
+    height: 35px;
+}
+#container>div>div>p{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding-top: 15px;
+    color: rgb(88, 88, 88);
+}
+#container>div>div>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+    align-self: flex-end;
+}
+#container>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer{
+    width: 100vw;
+    height: 60px;
+    margin-top: 70px;
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+}
+.footer>.up{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.footer>.up>div{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+.footer>.up>div>ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer>.up>div>ul:last-child{
+    border-left: 1px solid black;
+}
+.footer>.up>div>ul>li{
+    list-style: none;
+}
+.footer>.up>div>ul>li>svg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+.footer>.up>div>ul>li>img{
+    width: 35px;
+    margin-left: 35px;
+}
+.footer>.up>div>ul>li:first-child>img{
+    margin-left: 60px;
+}
+.footer>.up>div>ul:first-child>li:hover{
+    cursor: pointer;
+}
+
+
+
+
+.footer>.mid{
+    width: 100vw;
+    margin-top: -18px;
+    padding: 30px 0;
+    font-family: 'Jost', sans-serif;
+    background-color: #eee;
+}
+.footer>.mid>div{
+    width: 95vw;
+    margin: auto;
+    display: flex;
+}
+.footer>.mid>div>div>ul{
+    line-height: 33px;
+    margin-right: 160px;
+}
+.footer>.mid>div>div>ul>h4{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #666;
+}
+.footer>.mid>div>div>ul>li{
+    list-style: none;
+}
+.footer>.mid>div>div>ul>li>a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #666;
+    letter-spacing: 1px;
+}
+.footer>.mid>div>div>ul>div>a{
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.footer>.mid>div>div>ul>li>a:hover{
+    color: rgb(70, 70, 240);
+}
+.footer>.mid>div>div>ul>div>button>img{
+    width: 15px;
+    margin: -1px;
+    margin-bottom: -.25rem; 
+    padding: 2px;
+}
+.footer>.mid>div>div>ul>div>button{
+    border-radius: 50%;
+    padding-bottom: 0;
+    text-indent: 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: white;
+}
+.footer>.mid>div>div>ul>div>a:hover{
+    color: rgb(70, 70, 240);
+}
+.footer>.mid>div>div>ul>div>button:hover{
+    border-color: rgb(128, 128, 221);
+    cursor: pointer;
+}
+
+
+.footer>.down{
+    width: 100vw;
+    font-family: 'Jost', sans-serif;
+    background-color: rgb(219, 219, 219);
+}
+.footer>.down>div{
+    width: 95%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer>.down>div>div:last-child>ul{
+    width: 100%;
+    display: flex;
+    
+}
+.footer>.down>div>div:last-child>ul>li{
+    list-style: none;
+}
+.footer>.down>div>div:last-child>ul>li>a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding: 0 10px;
+    border-right: 1px solid rgb(163, 163, 163);
+}
+.footer>.down>div>div>p{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+.footer>.down>div>div:last-child>ul>li:last-child>a{
+    border: none;
+}
