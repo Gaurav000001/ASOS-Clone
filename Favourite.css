@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 .beforeNav{
     width: 100vw;
     height: 30px;
@@ -12,7 +11,6 @@
     height: 100%;
     width: 95%;
     margin: auto;
-
 }
 .beforeNav>div>ul{
     list-style-type: none;
@@ -76,7 +74,6 @@
 header{
     width: 100vw;
     font-family: 'Mukta', sans-serif;
-
 }
 #nav-main{
     width: 100%;
@@ -155,7 +152,6 @@ header{
     font-size: 14px;
     width: 700px;
     padding: 0 15px;
-
     border: none;
     border-start-start-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -252,77 +248,48 @@ header{
     text-align: center;
 }
 
-.main{
+.container{
+    font-family: 'Jost', sans-serif;
     width: 100vw;
-    height: 100vh;
-    margin-top: 1px;
-    background-image: url("https://content.asos-media.com/-/media/homepages/unisex/generic-hp/september-2022/microsoftteams-image-169---dt--.png");
+    padding: 120px 0;
 }
-.main>div{
-    width: 30%;
-    margin: auto;
-   text-align: center;
-   padding-top: 18%;
-}
-.main>div>div>h1{
-    background-color: white;
-    width: 80%;
-    height: 75px;
-    font-size: 60px;
+.container>div>span{
+    font-size: 30px;
     font-weight: 900;
-    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.container>div{
+    width: 28%;
     margin: auto;
+    text-align: center;
 }
-.main>div>div>p{
-    width: 68%;
-    font-size: 18px;
-    background-color: white;
+.container>div>h1{
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    color: rgb(48, 47, 47);
+}
+.container>div>div{
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    font-weight: 100;
+}
+.container>div>a{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    display: block;    
+    width: 78%;
     margin: auto;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: black;
+    margin-top: 20px;
+    padding: 12.5px 0;
+    letter-spacing: 2px;
+    font-size: 13.5px;
+    background-color: #2d2d2d;
 }
-.main>div>div:last-child{
-    margin: auto;
-    margin-top: 30px;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-}
-.main>div>div:last-child>h4{
-    padding: 10px 15px;
-    background-color: white;
-    font-family: 'Jost', sans-serif;
-    font-size: 14px;
-    letter-spacing: 2.5px;
-}
-.main>div>div:last-child>h4:last-child{
-    padding: 10px 30px;
-}
-.main>div>div:last-child>h4:hover{
+.container>div>a:hover{
     background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-
-.aftermid{
-    width: 100vw;
-    padding: 8px 0;
-    height: 35px;
-    margin-top: -10px;
-    background-color: #2d2d2d;
-}
-.aftermid>div{
-    width: 100vw;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.aftermid>div>div{
-    color: white;
-    background-color: #2d2d2d;
-    font-family: 'Jost', sans-serif;
 }
 
 
