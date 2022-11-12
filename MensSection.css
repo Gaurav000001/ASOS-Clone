@@ -286,37 +286,94 @@ header{
 
 
 .filtersSection{
-    width: 94.18%;
+    width: 93vw;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     gap: 20px;
     padding: 10px 40px;
     background-color: #eee;
 }
-.filtersSection>button{
+
+.filtersSection>div>button{
+    width: 100%;
     border: none;
     height: 40px;
     border-bottom: 1px solid rgb(214, 214, 214);
     border-top: 1px solid rgb(214, 214, 214);
     font-size: 15px;
     font-family: 'Jost', sans-serif;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.filtersSection>button:hover{
+.filtersSection>div>button>a:hover{
     color: blue;
 }
-.filtersSection>button>a{
+.filtersSection>div>button>a{
     text-decoration: none;
     float: left;
-    padding-left: 5px;
+    margin-left: -10px;
     cursor:default;
     color: #666;
 }
-.filtersSection>button>svg{
-    padding-right: 8px;
+.filtersSection>div>button>svg{
+    margin-right: -8px;
 }
+
+
+
+.dropbtn {
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.dropdown-content {
+    font-family: 'Jost', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: none;
+    position: absolute;
+    background-color: #eee;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0 10px 10px 10px;
+    font-size: 15px;
+}
+.dropdown-content>a{
+    width: 320px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+    height: 20px;
+}
+.dropdown-content>a:first-child{
+    background-color: #0770cf;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover {box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;}
+
+.show {display: block;}
+
 
 .numberofProd{
     text-align: center;

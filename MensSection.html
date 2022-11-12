@@ -220,50 +220,138 @@
     </div>
 
     <div class="filtersSection">
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Discount %</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sales / New Season</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
-        <button class="main-menu">
-            <a href="#">Sort</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
-        </button>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction1()">
+                <a href="#">Sort</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown1" class="dropdown-content">
+                <a href="#" value="reco">Recommended</a>
+                <a href="#" value="what's">What's new</a>
+                <a href="#" value="hl">Price high to low</a>
+                <a href="#" value="lh">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction2()">
+                <a href="#">Discount %</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown2" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction3()">
+                <a href="#">Sales / New Season</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown3" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction4()">
+                <a href="#">Category</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown4" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction5()">
+                <a href="#">Product Type</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown5" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction6()">
+                <a href="#">Style</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown6" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction7()">
+                <a href="#">Brand</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown7" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction8()">
+                <a href="#">Color</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown8" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction9()">
+                <a href="#">Body Fit</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown9" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction10()">
+                <a href="#">Size</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown10" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="main-menu dropbtn" onclick="myFunction11()">
+                <a href="#">Price Range</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="#666"><path d="M5.057 3.566 7.974.649l1.414 1.414-4.243 4.243-.088-.089-.084.085L.73 2.06 2.141.65l2.916 2.916Z" fill-rule="evenodd"/></svg>
+            </button>
+            <div id="myDropdown11" class="dropdown-content">
+                <a href="#">Recommended</a>
+                <a href="#">What's new</a>
+                <a href="#">Price high to low</a>
+                <a href="#">Price low to high</a>
+            </div>
+        </div>
     </div>
 
     <p class="numberofProd">1,437 styles found</p>
@@ -386,6 +474,62 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction1() {
+        document.getElementById("myDropdown1").classList.toggle("show");
+        }
+        function myFunction2() {
+        document.getElementById("myDropdown2").classList.toggle("show");
+        }
+        function myFunction3() {
+        document.getElementById("myDropdown3").classList.toggle("show");
+        }
+        function myFunction4() {
+        document.getElementById("myDropdown4").classList.toggle("show");
+        }
+        function myFunction5() {
+        document.getElementById("myDropdown5").classList.toggle("show");
+        }
+        function myFunction6() {
+        document.getElementById("myDropdown6").classList.toggle("show");
+        }
+        function myFunction7() {
+        document.getElementById("myDropdown7").classList.toggle("show");
+        }
+        function myFunction8() {
+        document.getElementById("myDropdown8").classList.toggle("show");
+        }
+        function myFunction9() {
+        document.getElementById("myDropdown9").classList.toggle("show");
+        }
+        function myFunction10() {
+        document.getElementById("myDropdown10").classList.toggle("show");
+        }
+        function myFunction11() {
+        document.getElementById("myDropdown11").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+
+    </script>
 
 </body>
 </html>
