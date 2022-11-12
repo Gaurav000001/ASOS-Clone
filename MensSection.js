@@ -3,8 +3,10 @@ let ProductArr = [
     {
       "image":"https://images.asos-media.com/products/topman-borg-jacket-in-rust/200229300-1-brown?$n_320w$&wid=317&fit=constrain",
       "des":"Topman borg jacket in rust",
+
       "price":"69.00",
       "favImage":"https://cdn-icons-png.flaticon.com/512/2031/2031035.png"
+
     },
     {
       "image":"https://images.asos-media.com/products/nike-blazer-mid-77-jumbo-trainers-in-white-and-black/24280232-1-white?$n_320w$&wid=317&fit=constrain",
@@ -123,7 +125,7 @@ let ProductArr = [
     
     
     ];
-console.log(ProductArr)
+
 displayItems(ProductArr);
 
 function displayItems(Data){
@@ -140,6 +142,7 @@ function displayItems(Data){
         let div1 = document.createElement("div");
 
         let p1 = document.createElement("p");
+
         p1.textContent = "£"+item.price;
 
         let btn = document.createElement("img");
@@ -163,6 +166,7 @@ let favArr = JSON.parse(localStorage.getItem("Fav-Item"))||[];
 
 function clicked(item,index){
 
+
     let status = true;
     favArr.forEach((element,index)=>{
         if(item.image == element.image) status = false;
@@ -172,6 +176,7 @@ function clicked(item,index){
         favArr.push(item);
         localStorage.setItem("Fav-Item",JSON.stringify(favArr));
     }
+
     else{
       alert("Item already in the Favourites!");
     }
@@ -198,3 +203,4 @@ document.querySelector(".dropdown-content>a:nth-child(4)").addEventListener("cli
   l.sort((a,b)=>{return a.price - b.price})
   displayItems(l);
 })
+
