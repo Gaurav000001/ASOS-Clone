@@ -2,6 +2,9 @@ let favArr = JSON.parse(localStorage.getItem("Fav-Item"))||[];
 displayFav(favArr);
 
 
+
+
+
 function displayFav(Data){
     document.querySelector(".container").innerHTML = null;
 
@@ -38,6 +41,9 @@ function displayFav(Data){
             let div1 = document.createElement("div");
             let image = document.createElement("img");
             let span = document.createElement("span");
+            span.addEventListener("click",function(){
+                deleteelement(item,index);
+            })
             let p1 = document.createElement("p");
             let p2 = document.createElement("p");
             let p3 = document.createElement("p");
@@ -64,7 +70,7 @@ function displayFav(Data){
 
             select.setAttribute("aria-label","Size");
             option1.textContent = "Select size";
-            option1.setAttribute("value","");
+            option1.setAttribute("value"," ");
             option2.textContent = "2XS - Chest 34";
             option2.setAttribute("value","111")
             option3.textContent = "XS - Chest 36";
@@ -90,7 +96,37 @@ function displayFav(Data){
             div1.append(image,span,p1,p2,p3,div3,buttonbag);
             div.append(div1);
 
-            
+            select.addEventListener("change",function(){
+                buttonbag.style.backgroundColor = "white";
+                buttonbag.style.color = "black";
+                buttonbag.style.border = "2px solid green";
+                buttonbag.style.cursor = "pointer";
+                    
+                buttonbag.addEventListener("click",function(){
+                    
+                    let cartArr = JSON.parse(localStorage.getItem("Cart-Item"))||[];
+
+                    let status = true;
+
+                    for(let i=0;i<cartArr.length;i++){
+                        if(cartArr[i].des == item.des) status=false;
+                    }
+
+                    if(status){
+                        /*adding to cartArr*/
+                        cartArr.push({...item, perfect: "perfect"})
+                        localStorage.setItem("Cart-Item",JSON.stringify(cartArr));
+    
+                        /*deleting from favArr*/
+                        favArr.splice(index,1);
+                        localStorage.setItem("Fav-Item",JSON.stringify(favArr));
+                        displayFav(favArr);
+                    }
+                    else{
+                        alert("Item is already in the Cart");
+                    }
+                })
+            })
         })
         
         document.querySelector(".container").append(div);
@@ -140,4 +176,9 @@ function displayFav(Data){
         // </div>
 
 
-        
+    function deleteelement(item,index){
+
+        favArr.splice(index,1);
+        localStorage.setItem("Fav-Item",JSON.stringify(favArr))
+        displayFav(favArr);
+    }

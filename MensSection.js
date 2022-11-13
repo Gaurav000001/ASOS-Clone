@@ -123,7 +123,7 @@ let ProductArr = [
     
     
     ];
-console.log(ProductArr)
+
 displayItems(ProductArr);
 
 function displayItems(Data){
@@ -147,7 +147,6 @@ function displayItems(Data){
         btn.addEventListener("click",function(){
           ProductArr[index].favImage = "https://cdn-icons-png.flaticon.com/512/2030/2030957.png";
           displayItems(ProductArr);
-          console.log(ProductArr)
 
             clicked(item,index);
         });
