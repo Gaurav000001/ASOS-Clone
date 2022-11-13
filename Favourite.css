@@ -448,7 +448,7 @@ header{
 /* <div class="favFull">
     <div>
         <img>
-            <button></button>
+            <span></span>
         </img>
         <p></p>  des
         <p></p>  price
@@ -531,4 +531,7 @@ header{
     margin-left: -43px;
     padding: 5px;
     border-radius: 50px;
+}
+.favFull>div>span:hover{
+    cursor: pointer;
 }
