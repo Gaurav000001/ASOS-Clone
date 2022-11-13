@@ -205,7 +205,7 @@ function displayCart(Data){
 
 
 
-/* <div class="cartFull">    div
+{/* <div class="cartFull">    div
     <div>                 div1
         <div id="first">  div2
             <div>         div3
@@ -264,4 +264,4 @@ function displayCart(Data){
             <p>Got a discount code? Add it in the next step.</p>
         </div>
     </div>
-</div> */
+</div> */}
